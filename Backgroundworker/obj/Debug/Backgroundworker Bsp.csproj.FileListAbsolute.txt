@@ -1,0 +1,18 @@
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.exe.config
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.exe
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.pdb
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.csprojResolveAssemblyReference.cache
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker_Bsp.Form1.resources
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker_Bsp.Properties.Resources.resources
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.csproj.GenerateResource.Cache
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.exe
+c:\users\tpohling\documents\visual studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.pdb
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.exe.config
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.exe
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.pdb
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.exe
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\bin\Debug\Backgroundworker Bsp.pdb
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker_Bsp.Properties.Resources.resources
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker Bsp.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\Backgroundworker Bsp\Backgroundworker Bsp\obj\Debug\Backgroundworker_Bsp.Form1.resources

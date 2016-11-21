@@ -1,0 +1,9 @@
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\bin\Debug\Backgroundworker Bsp.exe.config
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker Bsp.exe
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker Bsp.pdb
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\bin\Debug\Backgroundworker Bsp.exe
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\bin\Debug\Backgroundworker Bsp.pdb
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker.csprojResolveAssemblyReference.cache
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker_Bsp.Form1.resources
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker_Bsp.Properties.Resources.resources
+C:\Users\tpohling\Documents\Visual Studio 2015\Projects\Backgroundworker\Backgroundworker\obj\Debug\Backgroundworker.csproj.GenerateResource.Cache
