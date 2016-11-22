@@ -20,15 +20,26 @@ namespace Backgroundworker_Bsp
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
+            BackgroundWorker bw = (BackgroundWorker)sender;
             for (int i = 0; i < iMax; i++)
             {
-                if (i % 31 == 0)
+                // führt zur Exception:
+                // label_Ausgabe_Background.Text = "In _DoWork";
+                if (bw.CancellationPending)
                 {
-                    (sender as BackgroundWorker).ReportProgress(i);
-                    System.Threading.Thread.Sleep(10);
+                    break;
                 }
-
+                else
+                {
+                    System.Threading.Thread.Sleep(1);
+                    if (i % 31 == 0)
+                    {
+                        bw.ReportProgress(i);
+                    }
+                }
             }
+
+            if (!bw.CancellationPending)
                 e.Result = iMax;
         }
 
@@ -36,6 +47,8 @@ namespace Backgroundworker_Bsp
         {
             label_Ausgabe_Background.Text = e.ProgressPercentage.ToString();
             label_Ausgabe_Background.Refresh();
+
+            // nicht wirklich genial
             if ((sender as BackgroundWorker).IsBusy)
                 button_Start.BackColor = Color.Yellow;
             else
@@ -49,20 +62,41 @@ namespace Backgroundworker_Bsp
 
         private void button_Start_Click(object sender, EventArgs e)
         {
+            // Wenn schon aktiv, dann abbrechen, sonst starten
             if (backgroundWorker1.IsBusy)
                 backgroundWorker1.CancelAsync();
             else
                 backgroundWorker1.RunWorkerAsync();
+
+            // Status ändert sich
+            if (backgroundWorker1.IsBusy)
+                button_Start.Text = "&Abbruch";
+            else
+                button_Start.Text = "&Start Background";
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            label_Ausgabe_Background.Text = null == e.Result ? "fertig" : e.Result.ToString();
+            if (null == e.Result)
+            {
+                label_Ausgabe_Background.Text += " - Abbruch!";
+            }
+            else
+            {
+                label_Ausgabe_Background.Text = e.Result.ToString();
+            }
+
             label_Ausgabe_Background.Refresh();
             if ((sender as BackgroundWorker).IsBusy)
+            {
                 button_Start.BackColor = Color.Yellow;
+                button_Start.Text = "&Abbruch";
+            }
             else
+            {
                 button_Start.BackColor = Color.Green;
+                button_Start.Text = "&Start Background";
+            }
         }
     }
 }

@@ -33,6 +33,8 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label_Ausgabe_Vordergrund = new System.Windows.Forms.Label();
             this.button_Start = new System.Windows.Forms.Button();
+            this.eventLog1 = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
             // label_Ausgabe_Background
@@ -79,6 +81,11 @@
             this.button_Start.UseVisualStyleBackColor = true;
             this.button_Start.Click += new System.EventHandler(this.button_Start_Click);
             // 
+            // eventLog1
+            // 
+            this.eventLog1.Log = "Application";
+            this.eventLog1.SynchronizingObject = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,6 +97,7 @@
             this.Controls.Add(this.label_Ausgabe_Background);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -102,6 +110,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label_Ausgabe_Vordergrund;
         private System.Windows.Forms.Button button_Start;
+        private System.Diagnostics.EventLog eventLog1;
     }
 }
 
